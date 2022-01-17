@@ -109,10 +109,10 @@
 
                         <div class="home__data">
                             <h1 class="home__title">Hi, I'am Abayomi.</h1>
-                            <h3 class="home__subtitle">Frontend Developer</h3>
+                            <h3 class="home__subtitle">Frontend Developer, Product Manager</h3>
                             <p class="home__description">
-                                Hi again, My name is Abayomi Alabi, and i'm a Frontend Developer, before that
-                     am just some guy who loves solving Maths problem, Puzzles and Maze anywhere i can find them.
+                                Hi again, My name is Abayomi Alabi, and i'm a Frontend Developer and a Product Manager, before that
+                     am just this guy who loves solving Maths problem, Puzzles and Maze anywhere i can find them.
                       Basically am just an addicted problem solver in love with Anime and Dogs.! Wanna talk about something
                        interesting, be sure to hit me up on any of those social media links. Lets connect.!
                             </p>
@@ -147,17 +147,17 @@ Since college, I have upped my skill with the Google Africa Developer Scholarshi
                         </p>
                         <div class="about__info">
                             <div>
-                                <span class="about__info-title">08+</span>
+                                <span class="about__info-title">01+</span>
                                 <span class="about__info-name">Years <br> experience </span>
                             </div>
 
                             <div>
-                                <span class="about__info-title">20+</span>
+                                <span class="about__info-title">09+</span>
                                 <span class="about__info-name">Completed <br> project </span>
                             </div>
 
                             <div>
-                                <span class="about__info-title">05+</span>
+                                <span class="about__info-title">02+</span>
                                 <span class="about__info-name">Companies <br> worked </span>
                             </div>
                         </div>
@@ -382,20 +382,20 @@ Since college, I have upped my skill with the Google Africa Developer Scholarshi
 
               <div class="qualification__container container">
                 <div class="qualification__tabs">
-                  <div class="qualification__button button--flex">
+                  <div class="qualification__button button--flex qualification__active" data-target="#education">
                     <i class="uil uil-graduation-cap qualification__icon"></i>
                     Education
                   </div>
 
-                  <div class="qualification__button button--flex">
+                  <div class="qualification__button button--flex" data-target="#work">
                     <i class="uil uil-suitcase-alt qualification__icon"></i>
                     Work
                   </div>
                 </div>
 
                 <div class="qualification__sections">
-                  <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                  <div class="qualification__content">
+                  <!--==================== QUALIFICATION CONTENT 1 (Education)====================-->
+                  <div class="qualification__content qualification__active" data-content id="education">
                   <!--==================== QUALIFICATION  1 ====================-->
                   <div class="qualification__data">
                     <div>
@@ -432,12 +432,13 @@ Since college, I have upped my skill with the Google Africa Developer Scholarshi
                     </div>
                   </div>
                   </div>
-                  <!--==================== QUALIFICATION CONTENT 2 ====================-->
-                  <div class="qualification__content">
+                  
+                  <!--==================== QUALIFICATION CONTENT 2 (Work) ====================-->
+                  <div class="qualification__content" data-content id="work">
                   <!--==================== QUALIFICATION  1 ====================-->
                   <div class="qualification__data">
                     <div>
-                      <h3 class="qualification__title">Product Manager (Frontend developer) </h3>
+                      <h3 class="qualification__title">Product Manager</h3>
                       <span class="qualification__subtitle">Novustack</span>
                       <div class="qualification__calender">
                         <i class="uil uil-calendar-alt"></i>
@@ -459,7 +460,6 @@ Since college, I have upped my skill with the Google Africa Developer Scholarshi
                       <span class="qualification__rounder"></span>
                       <span class="qualification__line"></span>
                     </div>
-                  </div>
 
                     <div>
                       <h3 class="qualification__title">Frontend Developer </h3>
@@ -468,6 +468,7 @@ Since college, I have upped my skill with the Google Africa Developer Scholarshi
                         <i class="uil uil-calendar-alt"></i>
                         Jul 2021 - Dec 2021
                       </div>
+                    </div>
                     </div>
 
                   <!--==================== QUALIFICATION  3 ====================-->
@@ -494,8 +495,45 @@ Since college, I have upped my skill with the Google Africa Developer Scholarshi
 
             <!--==================== SERVICES ====================-->
             <section class="services section" id="services">
-                
+              <h2 class="section__title">Services</h2>
+              <span class="section__subtitle">What i offer</span>
 
+              <div class="services__container container grid">
+                <!--==================== SERVICES 1 ====================-->
+                <i class="uil uil-web-grid services__icon"></i>
+                <h3 class="services__title">Frontend <br> Developer</h3>
+              </div>
+
+              <span class="button button--flex button--small button--link services__button">
+                View More
+                <i class="uil uil-angle-right button__icon"></i>
+              </span>
+
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <h4 class="services__modal-title">Frontend <br> Developer</h4> 
+                  <i class="uil uil-times services__modal-close"></i>
+
+                  <ul class="services__modal-services grid">
+                    <li class="services_modal-services">
+                      <i class="uil uil-check services__modal-icon"></i>
+                      <p>Optimizing the user experience</p>
+                    </li>
+                    <li class="services_modal-services">
+                      <i class="uil uil-check services__modal-icon"></i>
+                      <p>Developing and maintaining the user interface.</p>
+                    </li>
+                    <li class="services_modal-services">
+                      <i class="uil uil-check services__modal-icon"></i>
+                      <p>Implementing design on mobile websites.</p>
+                    </li>
+                    <li class="services_modal-services">
+                      <i class="uil uil-check services__modal-icon"></i>
+                      <p>Managing software workflow.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </section>
 
             <!--==================== PORTFOLIO ====================-->
