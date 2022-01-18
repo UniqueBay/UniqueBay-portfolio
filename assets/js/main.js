@@ -100,6 +100,18 @@ modalBtns.forEach((modalBtn, i) => {
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 
+let swiper = new Swiper('.portfolio__container', {
+  cssMode: true,
+  loop: true,
+  navigation: {
+    nextE1: '.swiper-button-next',
+    prevE1: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
 
 /*==================== TESTIMONIAL ====================*/
 
