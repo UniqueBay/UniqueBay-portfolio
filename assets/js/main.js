@@ -100,9 +100,10 @@ modalBtns.forEach((modalBtn, i) => {
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 
-let swiperPortfolio = new Swiper('.portfolio__container', {
+let swiper = new Swiper('.portfolio__container', {
   cssMode: true,
   loop: true,
+
   navigation: {
     nextE1: '.swiper-button-next',
     prevE1: '.swiper-button-prev',
