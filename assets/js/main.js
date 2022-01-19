@@ -165,9 +165,19 @@ function scrollHeader() {
     nav.classList.remove('scroll-header')
   }
 }
-window.addEventListener('scroll', scrollTop)
+window.addEventListener('scroll', scrollHeader)
 
-/*==================== SHOW SCROLL UP ====================*/ 
+/*==================== SHOW SCROLL UP ====================*/
 
+function scrollUp() {
+  const scrollUp = document.getElementById('scroll-up');
+  // When the scroll is higher than 500 viewport height, add the show scroll class to the tag with the scroll
+  if (this.scrollY >= 560) {
+    scrollUp.classList.add('show-scroll')
+  } else {
+    scrollUp.classList.remove('show-scroll')
+  }
+}
+window.addEventListener('scroll', scrollUp)
 
 /*==================== DARK LIGHT THEME ====================*/ 
